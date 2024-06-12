@@ -1,0 +1,61 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 75px;
+    left: 0;
+    top: 0;
+    background-color: rgba(160, 174, 205, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: nowrap;
+}
+
+.leftcontent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 0px;
+    padding: 20px 0px;
+    flex-wrap: nowrap;
+}
+
+.rightcontent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0px;
+    padding: 20px 0px;
+    flex-wrap: nowrap;
+}
+
+.text {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'sourcesanspro';
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease, color 0.3s ease;
+    padding: 0px 15px 0px 16px;
+}
+
+.text:hover{
+    font-size: 30px;
+}
